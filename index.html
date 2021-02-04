@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge</title>
+</head>
+<body>
+    <div class="container-1">
+    <h2>Challenge 1: Your Age in Days</h2>
+    <div class="flex-box-container-1">
+<div>
+    <button class="btn btn-primary" onclick="ageInDays()">Click me</button>
+
+</div>
+<div>
+<button class="btn btn-danger" onclick="reset()">Reset</button>
+</div>
+</div>
+<div class="flex-box-container-1">
+<div id="flex-box-result"></div>
+</div>
+</div>
+<div class="container-2">
+    <h2>Challenge 2:Generate Pizza</h2>
+    <button class="btn btn-success"id="pizzaGen" onclick="genPizza()">Generate Pizza</button>
+    <div class="flex-box-container-2" id="flexPizza" >
+          
+    </div>
+</div>
+<div class="container-2">
+    <h2>Challenge 3: Rock,Paper,Scissors</h2>
+<div class="flex-box-rps" id="flex-box-rps-div">
+    <img id="Rock" src="https://png.pngtree.com/png-clipart/20190921/original/pngtree-hand-drawn-grey-stone-illustration-png-image_4706381.jpg" height="150px" width="150px" alt="" onclick="rpsGame(this)">
+    <img id="Paper" src="https://i1.wp.com/www.timvandevall.com/wp-content/uploads/clipart/notebook-paper-clipart.png?ssl=1"  height="150px" width="150px" alt="" onclick="rpsGame(this)">
+  <img id="Scissors" src=https://assets.stickpng.com/images/58a1e9e9c8dd3432c6fa81c8.png height="150px" width="150px" alt="" onclick="rpsGame(this)">
+</div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
